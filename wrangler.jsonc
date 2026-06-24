@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/asice999/Cloudflare-Navihive/main/wrangler.template.jsonc",
+  "name": "navihive",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-01-29",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "dist",
+    "binding": "ASSETS",
+    "spa_compatible": "true"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navigation-db-local",
+      "database_id": "f00bc856-1b63-49f4-84ab-c5741ee0fcb5"
+    }
+  ],
+  "vars": {
+    "AUTH_ENABLED": "true",
+    "AUTH_USERNAME": "linuxdo",
+    "AUTH_PASSWORD": "linuxdo"
+  }
+}
