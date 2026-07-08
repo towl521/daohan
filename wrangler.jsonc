@@ -11,14 +11,14 @@
   },
   "d1_databases": [
     {
-      "binding": "DB",
-      "database_name": "navigation-db-local",
-      "database_id": "f00bc856-1b63-49f4-84ab-c5741ee0fcb5"
+      "binding": "dh",
+      "database_name": "dh",
+      "database_id": "d7f42e56-99fd-43ec-bef0-7237e168a859"
     }
   ],
   "vars": {
     "AUTH_ENABLED": "true",
-    "AUTH_USERNAME": "linuxdo",
-    "AUTH_PASSWORD": "linuxdo"
+    "AUTH_USERNAME": "towl521",
+    "AUTH_PASSWORD": "towl521"
   }
 }
